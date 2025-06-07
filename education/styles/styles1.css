@@ -22,7 +22,12 @@ h1:hover {
     margin: 40px auto;
     max-width: 600px;
 }
-
+.quote2 {
+    padding: 15px;
+    font-size: 25px;
+    margin: 40px auto;
+    max-width: 600px;
+}
 ul {
     display: list-item;
     font-weight: bold;
