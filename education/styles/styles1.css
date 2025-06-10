@@ -15,6 +15,13 @@ h1 {
 h1:hover {
     color: black; /* Title changes to black on hover */
 }
+.img {
+    width: 100px !important;
+    height: auto !important;
+    text-align: center;
+
+}
+
 
 .quote1 {
     padding: 15px;
@@ -26,6 +33,7 @@ h1:hover {
     padding: 15px;
     font-size: 25px;
     margin: 40px auto;
+    font-weight: bold;
     max-width: 600px;
 }
 ul {
