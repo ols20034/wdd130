@@ -1,3 +1,7 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Rock+Salt&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap");
+
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -26,17 +30,52 @@ main section {
 body {
   background-color: #E6F7FF; /* Still soft neutral for content legibility */
   color: #000000; /* Primary text color */
+  font-family: 'Rock Salt', sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+.card-img {
+  border: 10px solid #000000;
+}
+
+.rivers-card {
+  margin: 200px 0;
+}
+
+.camping-card {
+  margin: 200px 0;
+}
+
+.rapids-card {
+  margin: 200px 0;
+}
+
+.mountains-card {
+  margin: 200px solid #000000;
 }
 
 header {
   background-color: #66CCFF ; /* Secondary as bold header backdrop */
   color: #fcfbfb; /* Light text for contrast */
+  font-family: 'Montserrat', Arial, sans-serif;
+
 }
 
-.home-title {
+main section img {
+  box-sizing: border-box;
+}
+
+.home-title, 
+.msg h2 {
+    font-family: 'Winky Rough', 'Rock Salt', cursive;
+    font-size: 2em;
+    margin-top: 10px;
     background-color: #66CCFF;
     color: #000000;
-    text-align: center
+    text-align: center;  
+
 }
 
 nav a {
@@ -44,6 +83,7 @@ nav a {
     color: #000000;
     text-decoration:none;
     text-align:center;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -54,17 +94,26 @@ nav a:hover {
 h4
 .book,
 .join {
+  padding: 15px 30px;
   color: #000000;
   text-decoration:none;
-  background-color:#66CCFF
+  background-color:#66CCFF;
+  margin-top: 50px;
+  border-radius: 5px;
+  font-size: 18px;
 }
 
 .logo {
     width: auto;
 }
 
+#logo_link {
+  padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .book:hover,
@@ -79,31 +128,37 @@ h4
 .msg {
   background-color: #fcfbfb; /* Neutral to offset text */
   color: #000000;
-}
-
-.msg h2 {
-    color: #000000;
+  line-height: 1.5em;
+  padding: 35px;
 }
 
 .msg p {
     color: #000000;
+    padding-bottom: 15px;
 }
 
 footer {
   background-color: #66CCFF; /* Primary to close the page visually */
   color: #000000; /* Accent text for warm contrast */
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 
 footer p {
     font-size:1.2em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 footer a {
     color: #000000;
     text-decoration:underline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 footer a:hover {
     color: #fcfbfb;
 }
 
+footer .social img {
+  padding-top: 15px; 
+}

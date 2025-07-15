@@ -1,6 +1,6 @@
 /* === Keep this on top of css === */
-@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rock+Salt&display=swap');
- 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Rock+Salt&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap");
+
 /* === Root Variables === */
 :root {
   --primary-color: steelblue;
