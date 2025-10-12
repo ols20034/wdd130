@@ -2,12 +2,20 @@ body {
   text-align: center;
 }
 
+#active {
+  background-color: white;
+  color: steelblue;
+}
 
 nav {
   background-color: steelblue;
   padding: 10px;
 }
 
+.main para {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
 
 a {
   color: white;
