@@ -1,7 +1,3 @@
-body {
-  text-align: center;
-}
-
 #active {
   background-color: white;
   color: steelblue;
@@ -12,9 +8,19 @@ nav {
   padding: 10px;
 }
 
+h1 {
+  text-align: center;
+}
+
 .main para {
   font-size: 1.5em;
   line-height: 1.5em;
+}
+
+main p {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
 }
 
 a {
@@ -28,11 +34,14 @@ h1 {
 }
 img {
   width: 80%;
-  border: 4px solid steelblue;
+  display: block;
+  margin: 0 auto;
 }
+
 p {
   width: 80%
 }
+
 footer {
   background-color: steelblue;
   color: white;
