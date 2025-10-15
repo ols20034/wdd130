@@ -1,0 +1,50 @@
+body {
+    background-color: steelblue;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+h1:hover {
+    color: black; /* Title changes to black on hover */
+}
+.img {
+    width: 100px !important;
+    height: auto !important;
+    text-align: center;
+
+}
+
+
+.quote1 {
+    padding: 15px;
+    font-size: 15px;
+    margin: 40px auto;
+    max-width: 600px;
+}
+.quote2 {
+    padding: 15px;
+    font-size: 25px;
+    margin: 40px auto;
+    font-weight: bold;
+    max-width: 600px;
+}
+ul {
+    display: list-item;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+ul li {
+    padding: 3px;
+}
