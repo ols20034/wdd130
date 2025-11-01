@@ -5,7 +5,11 @@
 
 nav {
   background-color: steelblue;
-  padding: 10px;
+  padding: 25px;
+}
+
+body {
+  margin: 0;
 }
 
 h1 {
@@ -27,6 +31,7 @@ a {
   color: white;
   margin: 40px;
   font-size: 1.5em;
+  padding: 25px;
 }
 
 a:hover {
@@ -36,11 +41,13 @@ a:hover {
 
 h1 {
   color: steelblue;
+  margin: 50px 0;
 }
 img {
   width: 80%;
   display: block;
   margin: 0 auto;
+  border: 4px Solid steelblue;
 }
 
 p {
@@ -50,6 +57,12 @@ p {
 footer p {
   font-size: 20px;
   margin: 20px auto;
+  padding: 25px;
+}
+
+footer {
+  background-color: steelblue;
+  color: white;
 }
 
 nav, footer {
