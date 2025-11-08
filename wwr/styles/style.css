@@ -1,86 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap');
+
 #content {
     margin: 0 auto;
     max-width: 1600px;
 }
+
 nav a{
     text-align: center;
     background-color: #385F71;
     color: #ADC9D7;
     text-decoration: none;
+    padding: 35px;
 }
+
 nav a:hover{
     background-color: black;
     color:#ADC9D7;
 }
-.logo {
+
+.icon {
     width: 80px;
     height: auto;
+    padding-top: 10px;
 }
+
+#logo-link {
+    padding-top: 5px;
+}
+
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 }
+
 .button box {
     text-align: center;
 }
+
 main section {
     text-align: center;
 }
+
 #background {
     height: 725px;
 }
+
 body {
     background-color: #F5F0F6;
+    font-family: Lato, sans-serif;
+    padding: 0;
+    margin: 0;
 }
+
 header {
     background-color: #385F71;
 }
   
 .book, .join {
-    background-color: #F5F0F6;
+    background-color: #ADC9D7;
+    border: solid black;
     text-decoration: none;
+    font-size: 18px;
+    padding-top: 10px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
+
 .book:hover, .join:hover{
     background-color: #ADC9D7;
 }
+
 #background{
     background-color: #F5F0F6;
 }
+
 .msg{
     background-color: #ADC9D7;
+    line-height: 1.5em;
+    padding: 35px;    
 }
+
+main section img {
+    box-sizing: border-box;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
 footer{
     background-color: #2B4162;
+    padding: 25px 50px;
 }
-.home-title{
+
+.home-title {
     background-color: #385F71;
+    font-family: Roboto, sans-serif;
+    font-size: 2em;
 }
-h4{
+
+h4 {
     background-color: #ADC9D7;
 }
+
 .msg h2{
     background-color: #ADC9D7;
 }
+
+h2 {
+    margin: 0;
+}
+
 .msg p{
     background-color: #ADC9D7;
+    font-size: 1em;
+    font-family: Lato, sans-serif;
+    padding-bottom: 15px;
 }
+
 footer a{
     background-color: #ADC9D7;
     text-decoration: none;
 }
+
 footer a:hover{
     background-color: #58B09c;
 }
+
 footer P {
     font-size: 1.2em;
+    font-family: Lato, sans-serif;
 }
+
 footer p a:hover {
     text-decoration: underline;
 }
 
-.icon{
-    width: 80px;
-    height: auto;
+footer .social img {
+    padding-top: 15px;
 }
+
+
 
 
 
