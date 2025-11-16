@@ -202,12 +202,11 @@
   background: red;
   grid-column: 1/2;
   grid-row: 1;
-  width: 400px;   /* narrower height so blue can overlap slightly */
+  width: 400px; 
   height: 200px;
   z-index: 1;     /* beneath blue */
 }
 
-/* Blue: large center, slightly on top of red */
 .blue6 {
   background: blue;
   grid-column: 2;
@@ -219,24 +218,22 @@
   z-index: 2;     /* above red, below green/yellow */
 }
 
-/* Green: bottom-left overlapping the blue’s bottom-left */
 .green6 {
   background: green;
   grid-column: 1;
   grid-row: 3;
   width: 200px;
   height: 200px;
-  z-index: 3;     /* above blue */
+  z-index: 3;     /* above blue on left corner */
 }
 
-/* Yellow: bottom-right covering the blue’s bottom-right */
 .yellow6 {
   background: gold;
   grid-column: 3;
   grid-row: 2/3;
   width: 200px;
   height: 400px;
-  z-index: 4;     /* topmost */
+  z-index: 4;     /* On top of blue right corner */
 }
 
 
