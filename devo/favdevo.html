@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>Devotionals</h1>
+      </div>
+    </header>
+    <main>
+      <div class="content-box">
+         <h2>Table of Favorites</h2>
+
+<table class="fav-table">
+  <thead>
+    <tr>
+      <th>Speaker</th>
+      <th>Title</th>
+      <th>Location</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Elder Ronald A. Rasband</td>
+      <td>By Divine Design</td>
+      <td>General Conference</td>
+      <td>2007</td>
+    </tr>
+    <tr>
+      <td>Elder Dieter F. Uchtdorf</td>
+      <td>See the End from the Beginning</td>
+      <td>General Conference</td>
+      <td>2006</td>
+    </tr>
+    <tr>
+      <td>Elder Bradley D. Foster</td>
+      <td>It's Never Too Early and It's Never too Late</td>
+      <td>General Conference</td>
+      <td>2015</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Add Another Devotional</h2>
+
+<form class="devotional-form">
+  <label>
+    Speaker:
+    <input type="text" name="speaker" placeholder="Enter speaker name">
+  </label>
+
+  <label>
+    Title:
+    <input type="text" name="title" placeholder="Enter devotional title">
+  </label>
+
+  <label>
+    Location:
+    <input type="text" name="location" placeholder="Enter location">
+  </label>
+
+  <label>
+    Year:
+    <input type="number" name="year" placeholder="Enter year">
+  </label>
+
+  <button type="submit">Add Devotional</button>
+</form>
+
+      </div>
+    </main>
+  </div>
+</body>
+</html>

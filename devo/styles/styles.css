@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #d3d3d3, #001f3f);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  text-align: center;
+}
+
+.header {
+  padding: 20px 0;
+}
+.header-image {
+  background-image: url('../images/icenter.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+
+.header-image h1 {
+  margin: 0;
+  line-height: 0.9;
+    font-size: 3.5em;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  background: #00000055;
+}
+
+.content-box {
+  background-color: white;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 900px;
+  padding: 40px;
+  box-shadow: 5px 5px 0px black;
+  min-height: 400px;
+}
+/* TABLE STYLING */
+.fav-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0 40px;
+  font-size: 1rem;
+}
+
+.fav-table th {
+  background-color: #001f3f;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.fav-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.fav-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* FORM STYLING */
+.devotional-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem 2rem;
+  background: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.devotional-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #333;
+}
+
+.devotional-form input {
+  padding: 8px;
+  margin-top: 6px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.devotional-form button {
+  grid-column: span 2;
+  padding: 12px;
+  background-color: #001f3f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.devotional-form button:hover {
+  background-color: #003366;
+}
