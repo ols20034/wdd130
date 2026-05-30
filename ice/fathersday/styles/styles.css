@@ -1,0 +1,153 @@
+/* ------------------------------
+   GLOBAL STYLING
+--------------------------------*/
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+}
+
+/* Wrapper container */
+#wrapper {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: rgba(255,255,255,0.1);
+    padding: 2rem;
+    border-radius: 15px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 25px rgba(0,0,0,0.3);
+}
+
+/* ------------------------------
+   NAVIGATION
+--------------------------------*/
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0 0 2rem 0;
+}
+
+nav li {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+nav li:hover {
+    background: rgba(255,255,255,0.2);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+nav li:focus {
+    outline: 3px solid #ffcc00;
+    outline-offset: 4px;
+}
+
+/* ------------------------------
+   HEADERS & TITLES
+--------------------------------*/
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 0;
+    animation: fadeSlide 1.2s ease-out forwards;
+    opacity: 0;
+}
+
+@keyframes fadeSlide {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+/* ------------------------------
+   IMAGE STYLING
+--------------------------------*/
+main img {
+    display: block;
+    margin: 1rem auto;
+    width: 60%;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+main img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 35px rgba(255,255,255,0.5);
+}
+
+/* ------------------------------
+   SECTION CARDS
+--------------------------------*/
+section {
+    background: rgba(255,255,255,0.15);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+/* Animated glowing border */
+section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    padding: 2px;
+    background: linear-gradient(45deg, #ffcc00, #ff8800, #ffaa00, #ffcc00);
+    background-size: 300%;
+    animation: borderGlow 4s linear infinite;
+
+    /* Mask to create the hollow glowing border */
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+
+
+@keyframes borderGlow {
+    0% { background-position: 0%; }
+    100% { background-position: 300%; }
+}
+
+/* ------------------------------
+   TEXT & READABILITY
+--------------------------------*/
+p {
+    line-height: 1.6;
+}
+
+/* ------------------------------
+   FOOTER
+--------------------------------*/
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    font-size: 1.1rem;
+    opacity: 0.9;
+    border-top: 1px solid rgba(255,255,255,0.3);
+}
+/* Add your CSS here to style your father's day page */
