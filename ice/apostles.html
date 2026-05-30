@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlight</title>
+
+    <style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #E8ECED;
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    /* Wrapper holds Christus + overlayed apostles */
+    .layout-wrapper {
+        position: relative;
+        width: 930px;
+        height: 750px;
+        margin: 0 auto;
+    }
+
+    /* Christus image with black border */
+    .christus {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;          /* fills the wrapper */
+        object-position: center;
+        border: 8px solid black;
+        border-radius: 40px;
+        display: block;
+    }
+
+    .overlay-content {
+    position: absolute;
+    top: 0;
+    right: 20px;        /* was 170px */
+    width: 90%;
+    height: 100%;
+    padding: 20px 40px; /* was 60px */
+    color: white;
+    text-shadow: 0 0 6px black;
+    box-sizing: border-box;
+}
+
+    h1, h2 {
+        margin: 10px 0 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+
+    /* Base grid */
+    .grid {
+        display: grid;
+        justify-content: center;
+        margin: 0 auto 20px;
+        align-items: start;
+    }
+
+    /* First Presidency — layout + spacing + size */
+    .first-presidency {
+        grid-template-columns: repeat(3, auto); 
+        margin-bottom: 25px;
+        align-items: end;
+    }
+
+    /* Counselors (left + right) */
+    .first-presidency img:nth-child(1),
+    .first-presidency img:nth-child(3) {
+        width: 130px;
+        height: 130px;
+        border: 8px solid white;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    /* President Oaks (middle) — larger */
+    .first-presidency img:nth-child(2) {
+        width: 180px;   /* enlarge here */
+        height: 180px;
+        border: 8px solid white;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+
+     /* Apostles — layout + spacing + size */
+    .apostles {
+        grid-template-columns: repeat(4, auto);
+        column-gap: 8px;
+        row-gap: 30px;;
+    }
+
+    .apostles img {
+        width: 80px;
+        height: 90px;
+        border: 6px solid white;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+</style>
+
+</head>
+
+<body>
+
+    <div class="layout-wrapper">
+
+        <!-- Christus image with black border -->
+        <img class="christus" src="images/christus.webp" alt="Christus">
+
+        <!-- Overlayed apostles on the right side -->
+        <div class="overlay-content">
+
+            <h1>First Presidency</h1>
+
+            <div class="grid first-presidency">
+                <img src="images/eyring.webp" alt="Eyring">
+                <img src="images/oaks.webp" alt="Oaks">
+                <img src="images/christofferson.webp" alt="Christofferson">
+            </div>
+
+            <h2>Quorum of the Twelve Apostles</h2>
+
+            <div class="grid apostles">
+                <img src="images/uchtdorf.webp" alt="Uchtdorf">
+                <img src="images/bednar.webp" alt="Bednar">
+                <img src="images/cook.webp" alt="Cook">
+                <img src="images/anderson.webp" alt="Anderson">
+
+                <img src="images/rasband.webp" alt="Rasband">
+                <img src="images/stevenson.webp" alt="Stevenson">
+                <img src="images/renlund.webp" alt="Renlund">
+                <img src="images/gong.webp" alt="Gong">
+
+                <img src="images/soares.webp" alt="Soares">
+                <img src="images/kearon.webp" alt="Kearon">
+                <img src="images/causse.webp" alt="Causse">
+                <img src="images/gilbert.webp" alt="Gilbert">
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
