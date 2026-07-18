@@ -39,13 +39,13 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 25px;
   font-family: 'Lato', 'Open Sans', sans-serif;
-  color: var(--text-dark);
+  color: white;
   font-weight: 600;
   padding: 0.4rem 0.8rem;
   border-radius: 6px;
-}
+  }
 
 nav a:hover {
   background-color: var(--accent1);
@@ -150,7 +150,7 @@ nav a:hover {
 ============================ */
 .centered-box {
   text-align: center;
-  font-size: 14px;
+  font-size: 25px;
   border: 3px solid var(--secondary);
   padding: 1rem;
   border-radius: 10px;
